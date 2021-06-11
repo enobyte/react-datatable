@@ -54,7 +54,7 @@ export default function TableHeader(props){
                   style={style.table_tool_btn}
                   onClick={props.exportToExcel}>
                   <span>
-                    <i className="fa fa-file-excel-o" aria-hidden="true"></i>
+                    <i className="fa fa-download" aria-hidden="true"></i>
                   </span>
                 </button>
               ) : null}
@@ -66,7 +66,7 @@ export default function TableHeader(props){
                   style={style.table_tool_btn}
                   onClick={props.exportToCSV}>
                   <span>
-                    <i className="fa fa-file-text-o" aria-hidden="true"></i>
+                    <i className="fa fa-download" aria-hidden="true"></i>
                   </span>
                 </button>
               ) : null}
